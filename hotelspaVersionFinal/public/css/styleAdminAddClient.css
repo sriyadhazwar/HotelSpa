@@ -1,0 +1,146 @@
+.form-group {
+    margin-bottom: 15px;
+}
+
+.informacion{
+    text-align: center;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 8px;
+}
+
+.input-group {
+    border-collapse: separate;
+    display: table;
+    margin-bottom: 1em;
+    position: relative;
+    width: 100%;
+}
+
+.input-group-addon {
+    display: table-cell;
+}
+
+.input-group-addon:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+
+.input-group-addon:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.input-group-addon:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+.input-group-addon:not(:first-child):not(:last-child){
+    border-radius: 0;
+}
+
+
+.input-group-addon {
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 1%;
+}
+
+.modal{
+    top: 20% !important;
+}
+
+
+
+.input-group-addon {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+#btnAddClient{
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+  	width: 100px;
+  	padding: 10px;
+  	margin-bottom: 30px;
+	background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  	color: #555;
+  	text-align: center;
+  	cursor: pointer;
+  	
+}
+
+
+
+
+.input-group-addon:first-child {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.input-group-addon:first-child {
+    border-right: 0 none;
+}
+
+.input-group-addon:last-child {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.input-group-addon:last-child {
+    border-left: 0 none;
+}
+
+
+
+.fa-envelope-o::before {
+    content: "\f084";
+}
+
+.iconss{
+    width: 15px;    
+}
+
+
+.form-control1{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+    box-shadow: none !important;
+    color: #616161;
+    font-size: 0.85em;
+    font-weight: 300;
+    height: 40px;
+    padding: 5px 8px;
+    resize: none;
+    width: 100%;
+}
+
+
+.form-control1:focus {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #03a9f4;
+    box-shadow: none;
+}
+
+
+#tabla{
+    width: 100%;
+    max-width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

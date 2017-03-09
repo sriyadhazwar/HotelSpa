@@ -1,0 +1,15 @@
+.titulo{
+    color: white;
+}
+
+.servicios{
+    background-image: url(../images/hotel12.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color:white;
+}

@@ -1,0 +1,142 @@
+body{
+	background-image: url(../images/restaurante.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color: #464646;
+}
+
+
+.modal .modal-footer {
+  border-top: none;
+  padding: 0;
+}
+.modal .modal-footer .btn-group > .btn:first-child {
+  border-bottom-left-radius: 0;
+}
+.modal .modal-footer .btn-group > .btn:last-child {
+  border-top-right-radius: 0;
+}
+
+.modalCarrito{
+	background-color: #FFFFFF !important;
+	background: none;
+	z-index: 999;
+	height: 42em;
+    top: 15%;
+    -webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+    visibility: hidden;
+}
+
+#selecteds{
+    font: 303% oblique bold cursive;
+    text-align: center;
+    color: #e7e5e4;
+	text-align: center;
+    letter-spacing: .15em;
+    margin-top: 6%;
+    margin-bottom: 0.10em;
+	-webkit-text-stroke: 1px black;
+}
+
+#elegantshadow {
+    font: 823% oblique bold cursive;
+    text-align: center;
+    color: #131313;
+    background-color: #e7e5e4;
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #767676, 
+      -1px 2px 1px #737272, 
+      -2px 4px 1px #767474, 
+      -3px 6px 1px #787777, 
+      -4px 8px 1px #7b7a7a, 
+      -5px 10px 1px #7f7d7d, 
+      -6px 12px 1px #828181, 
+      -7px 14px 1px #868585, 
+      -8px 16px 1px #8b8a89;
+  }
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    margin-left: 36%;
+}
+
+#habit{
+  font:12px;
+}
+
+
+#estilotextarea {
+	font: 10.3333px Arial;
+    margin-left: 15%;
+    resize: none;
+	width:400px;
+	height:34%;
+	border: 2px solid #e7e5e4;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#estilotextarea2 {
+  font: 10.3333px Arial;
+    margin-left: 15%;
+    resize: none;
+  width:400px;
+  border: 2px solid #e7e5e4;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#selecteds2{
+    font:  oblique bold cursive;
+    text-align: center;
+    color: #e7e5e4;
+  text-align: center;
+    letter-spacing: .15em;
+    margin-top: 6%;
+    margin-bottom: 0.10em;
+  -webkit-text-stroke: 1px black;
+}
+
+
+#contenedorConvirmacion{
+    position: absolute;
+    top: 86%;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    }
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
